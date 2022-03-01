@@ -1,0 +1,22 @@
+{
+  "name": "react-native-template-awesome",
+  "version": "0.0.2",
+  "description": "React Native Boilerplate",
+  "repository": "https://github.com/sivantha96/react-native-template-awesome.git",
+  "bugs": {
+    "url": "https://github.com/sivantha96/react-native-template-awesome/issues"
+  },
+  "author": "Sivantha Paranavithana <sivantha.paranavithana@gmail.com>",
+  "keywords": [
+    "react-native",
+    "rn",
+    "template",
+    "boilerplate",
+    "starter"
+  ],
+  "files": [
+    "template",
+    "template.config.js"
+  ],
+  "license": "MIT"
+}
