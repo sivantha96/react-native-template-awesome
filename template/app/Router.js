@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
-import { BackHandler, View } from 'react-native';
+import { View } from 'react-native';
 import { handleAndroidBackButton } from './helpers/androidBackHandler';
-import NavigationServices from './navigation/NavigationServices';
-import * as NavigationHelpers from './navigation/NavigationHelpers';
-import { MAIN_STACK_SCREENS } from './navigation/constants';
+import Icon from 'react-native-vector-icons/FontAwesome';
 
 export class Router extends Component {
     componentDidMount() {
@@ -19,30 +17,17 @@ export class Router extends Component {
     };
 
     // initial navigation logic
-    startNavigation = () => {
-        NavigationHelpers.navigateToHome();
-    };
+    startNavigation = () => {};
 
     // global android back handler
-    onPressBackHandler = () => {
-        const currentRoute = NavigationServices.getCurrentRoute();
-        if (!currentRoute) {
-            return;
-        }
-
-        switch (currentRoute?.name) {
-            case MAIN_STACK_SCREENS.ROUTER:
-                BackHandler.exitApp();
-                break;
-
-            default:
-                NavigationServices.goBack();
-                break;
-        }
-    };
+    onPressBackHandler = () => {};
 
     render() {
-        return <View />;
+        return (
+            <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+                <Icon name="rocket" size={30} color="#900" />
+            </View>
+        );
     }
 }
 
