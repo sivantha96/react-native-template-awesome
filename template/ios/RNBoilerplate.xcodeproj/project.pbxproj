@@ -12,8 +12,6 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		6233333D6792F1271C27F453 /* libPods-RNBoilerplate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A99BE9DB82006AE70613A5BA /* libPods-RNBoilerplate.a */; };
-		70A75D6127C5F9BB0008AF98 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70868A1B27C5467A0000CDAB /* FontAwesome.ttf */; };
-		70A75D6227C5F9BB0008AF98 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 70868A1F27C5467A0000CDAB /* MaterialIcons.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		EE01C6EECEEC8496B38D5C2B /* libPods-RNBoilerplate-RNBoilerplateTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 400CA8BDD2A53F1020C7CCD3 /* libPods-RNBoilerplate-RNBoilerplateTests.a */; };
 /* End PBXBuildFile section */
@@ -43,8 +41,6 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RNBoilerplate/main.m; sourceTree = "<group>"; };
 		400CA8BDD2A53F1020C7CCD3 /* libPods-RNBoilerplate-RNBoilerplateTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNBoilerplate-RNBoilerplateTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6038862DB6DFFBDE1073FDCA /* Pods-RNBoilerplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNBoilerplate.release.xcconfig"; path = "Target Support Files/Pods-RNBoilerplate/Pods-RNBoilerplate.release.xcconfig"; sourceTree = "<group>"; };
-		70868A1B27C5467A0000CDAB /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
-		70868A1F27C5467A0000CDAB /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RNBoilerplate/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A99BE9DB82006AE70613A5BA /* libPods-RNBoilerplate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNBoilerplate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -90,7 +86,6 @@
 		13B07FAE1A68108700A75B9A /* RNBoilerplate */ = {
 			isa = PBXGroup;
 			children = (
-				70868A0F27C5467A0000CDAB /* Fonts */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -120,16 +115,6 @@
 				400CA8BDD2A53F1020C7CCD3 /* libPods-RNBoilerplate-RNBoilerplateTests.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		70868A0F27C5467A0000CDAB /* Fonts */ = {
-			isa = PBXGroup;
-			children = (
-				70868A1B27C5467A0000CDAB /* FontAwesome.ttf */,
-				70868A1F27C5467A0000CDAB /* MaterialIcons.ttf */,
-			);
-			name = Fonts;
-			path = "../node_modules/react-native-vector-icons/Fonts";
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -257,8 +242,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70A75D6127C5F9BB0008AF98 /* FontAwesome.ttf in Resources */,
-				70A75D6227C5F9BB0008AF98 /* MaterialIcons.ttf in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);

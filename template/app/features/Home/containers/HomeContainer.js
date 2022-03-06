@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View } from 'react-native';
+import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import React, { Component } from 'react';
-import Icon from 'react-native-vector-icons/FontAwesome';
 
 export class HomeContainer extends Component {
     render() {
@@ -9,7 +9,6 @@ export class HomeContainer extends Component {
             <View style={styles.container}>
                 <Text>Home Container Works</Text>
                 <Text>From Home Reducer - {this.props.test}</Text>
-                <Icon name="rocket" size={30} color="#900" />
             </View>
         );
     }
@@ -22,6 +21,10 @@ const styles = StyleSheet.create({
         alignItems: 'center',
     },
 });
+
+HomeContainer.propTypes = {
+    test: PropTypes.string,
+};
 
 const mapStatesToProps = state => ({
     test: state.homeReducer.test,

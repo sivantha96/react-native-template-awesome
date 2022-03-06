@@ -25,4 +25,6 @@ npx react-native init ProjectName --template react-native-template-awesome@0.0.1
 
 | Version                                                                               | Features                                                              |
 | ------------------------------------------------------------------------------------- | ----------------------------------------------------------------------|
-| [v0.0.1](https://www.npmjs.com/package/react-native-template-awesome/v/0.0.1)         | react-navigation, redux, redux-saga, redux-persist                    |
+| [v0.0.1](https://www.npmjs.com/package/react-native-template-awesome/v/0.0.1)         | react-navigation, redux, react-native-vector-icons                    |
+| [v0.0.3](https://www.npmjs.com/package/react-native-template-awesome/v/0.0.3)         | react-navigation                                                      |
+| [v0.0.4](https://www.npmjs.com/package/react-native-template-awesome/v/0.0.4)         | redux                                                                 |
