@@ -30,5 +30,5 @@ npx react-native init ProjectName --template react-native-template-awesome@0.0.1
 | [v0.0.4](https://www.npmjs.com/package/react-native-template-awesome/v/0.0.4)         | redux                                                                 |
 | [v0.0.5](https://www.npmjs.com/package/react-native-template-awesome/v/0.0.5)         | react-native-vector-icons                                             |
 | [v0.0.6](https://www.npmjs.com/package/react-native-template-awesome/v/0.0.6)         | redux, react-native-vector-icons                                      |
-| [v0.0.6](https://www.npmjs.com/package/react-native-template-awesome/v/0.0.7)         | react-navigation, react-native-vector-icons                           |
-| [v0.0.6](https://www.npmjs.com/package/react-native-template-awesome/v/0.0.8)         | react-navigation, redux                                               |
+| [v0.0.7](https://www.npmjs.com/package/react-native-template-awesome/v/0.0.7)         | react-navigation, react-native-vector-icons                           |
+| [v0.0.8](https://www.npmjs.com/package/react-native-template-awesome/v/0.0.8)         | react-navigation, redux                                               |
