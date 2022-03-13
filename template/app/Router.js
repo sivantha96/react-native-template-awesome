@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { BackHandler, View } from 'react-native';
 import { handleAndroidBackButton } from './helpers/androidBackHandler';
+import { MAIN_STACK_SCREENS } from './navigation/constants';
 import NavigationServices from './navigation/NavigationServices';
 import * as NavigationHelpers from './navigation/NavigationHelpers';
-import { MAIN_STACK_SCREENS } from './navigation/constants';
 
 export class Router extends Component {
     componentDidMount() {
