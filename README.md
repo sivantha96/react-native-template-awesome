@@ -3,6 +3,9 @@ Opinionated react-native boilerplate code
 
 With each release having a different set of features, configurations, etc. so that you can start working on your requirements without any hassle of initial setup. 🚀
 
+# JS Project Wizard 🚀
+You can use the [JS Project Wizard](https://sivantha96.github.io/js-project-wizard/) tool to initialize your project the way you want easily. Check it out.
+
 ## Creating a New Project
 
 First of all you have to setup your environment. Please refer the [Official RN Environment Setup Guide](https://reactnative.dev/docs/environment-setup)
