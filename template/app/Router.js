@@ -32,6 +32,7 @@ export class Router extends Component {
 
         switch (currentRoute?.name) {
             case MAIN_STACK_SCREENS.ROUTER:
+            case MAIN_STACK_SCREENS.HOME:
                 BackHandler.exitApp();
                 break;
 
